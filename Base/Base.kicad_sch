@@ -1319,6 +1319,135 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Connector_Generic:Conn_01x01"
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "J"
+				(at 0 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Conn_01x01"
+				(at 0 -2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_1x??_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "Conn_01x01_1_1"
+				(rectangle
+					(start -1.27 1.27)
+					(end 1.27 -1.27)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(rectangle
+					(start -1.27 0.127)
+					(end 0 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Connector_Generic:Conn_01x02"
 			(pin_names
 				(offset 1.016)
@@ -3755,7 +3884,7 @@
 	)
 	(rectangle
 		(start 74.295 16.51)
-		(end 139.065 63.5)
+		(end 171.45 63.5)
 		(stroke
 			(width 0)
 			(type default)
@@ -3764,6 +3893,18 @@
 			(type none)
 		)
 		(uuid "1a8274cf-dbcb-42af-b13c-28996db25f9e")
+	)
+	(rectangle
+		(start 58.42 128.27)
+		(end 135.89 180.34)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "5957843e-3006-4ac7-aef5-148862deff73")
 	)
 	(rectangle
 		(start 17.78 128.27)
@@ -3845,6 +3986,17 @@
 		)
 		(uuid "90016722-aa83-41bf-b100-df0d0ac4da79")
 	)
+	(text "Audio circuit"
+		(exclude_from_sim no)
+		(at 58.928 129.032 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "c13453b6-49b4-43ed-b415-7c7ccbf09a54")
+	)
 	(text "Battery charge status"
 		(exclude_from_sim no)
 		(at 18.288 129.032 0)
@@ -3869,16 +4021,34 @@
 		(uuid "226e80c3-ecca-4e08-96f9-8a18eec5f6dd")
 	)
 	(junction
+		(at 129.54 57.15)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "260d0ecc-2952-455a-aaa7-ad85d0b05047")
+	)
+	(junction
 		(at 78.74 105.41)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "2ffa1e94-a5d7-4dd7-8cc9-e3ad2fd7276f")
 	)
 	(junction
+		(at 102.87 168.91)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "46d4ca0a-3fa7-4b61-8f9f-93225973697d")
+	)
+	(junction
+		(at 154.94 35.56)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4e846cca-6118-493c-86a4-8682d5fdf8fd")
+	)
+	(junction
 		(at 129.54 35.56)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "3ec4e32d-669e-480c-b702-11fe4731e0be")
+		(uuid "54291cc8-ac18-4bb8-9d6c-b54117232cbf")
 	)
 	(junction
 		(at 234.95 143.51)
@@ -3899,13 +4069,25 @@
 		(uuid "a51e549e-f4ad-44dd-804f-ef8b057b305e")
 	)
 	(junction
+		(at 142.24 57.15)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b0c0dc72-3513-48d9-912b-bcbf0d80b1d5")
+	)
+	(junction
+		(at 142.24 35.56)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c8a3f6bd-3b39-4e2e-b935-5795aebf10c8")
+	)
+	(junction
 		(at 102.87 57.15)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "cb08fcaf-1f95-4733-9b86-ba38f22a9447")
 	)
 	(no_connect
-		(at 158.75 57.15)
+		(at 194.31 55.88)
 		(uuid "bf02c8f8-c7f4-4318-92bf-a5262cfbc436")
 	)
 	(wire
@@ -3930,7 +4112,7 @@
 	)
 	(wire
 		(pts
-			(xy 198.12 33.02) (xy 203.2 33.02)
+			(xy 242.57 27.94) (xy 247.65 27.94)
 		)
 		(stroke
 			(width 0)
@@ -3950,7 +4132,7 @@
 	)
 	(wire
 		(pts
-			(xy 158.75 54.61) (xy 162.56 54.61)
+			(xy 194.31 53.34) (xy 198.12 53.34)
 		)
 		(stroke
 			(width 0)
@@ -3960,7 +4142,7 @@
 	)
 	(wire
 		(pts
-			(xy 198.12 24.13) (xy 203.2 24.13)
+			(xy 242.57 21.59) (xy 247.65 21.59)
 		)
 		(stroke
 			(width 0)
@@ -3970,7 +4152,7 @@
 	)
 	(wire
 		(pts
-			(xy 158.75 49.53) (xy 162.56 49.53)
+			(xy 194.31 48.26) (xy 198.12 48.26)
 		)
 		(stroke
 			(width 0)
@@ -3980,17 +4162,7 @@
 	)
 	(wire
 		(pts
-			(xy 229.87 66.04) (xy 229.87 67.31)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "120e00c8-2c82-47f4-9909-9eb8a806b7fb")
-	)
-	(wire
-		(pts
-			(xy 158.75 57.15) (xy 162.56 57.15)
+			(xy 194.31 55.88) (xy 198.12 55.88)
 		)
 		(stroke
 			(width 0)
@@ -4000,7 +4172,7 @@
 	)
 	(wire
 		(pts
-			(xy 153.67 25.4) (xy 157.48 25.4)
+			(xy 189.23 24.13) (xy 193.04 24.13)
 		)
 		(stroke
 			(width 0)
@@ -4057,6 +4229,16 @@
 			(type default)
 		)
 		(uuid "1ebad659-9ac4-4897-9458-bb273bb5abea")
+	)
+	(wire
+		(pts
+			(xy 105.41 137.16) (xy 105.41 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "215da5b7-d32b-445a-9708-5c13831d102a")
 	)
 	(wire
 		(pts
@@ -4120,6 +4302,36 @@
 	)
 	(wire
 		(pts
+			(xy 102.87 167.64) (xy 102.87 168.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "38645dd7-0064-47a7-aafe-1afaa85becbf")
+	)
+	(wire
+		(pts
+			(xy 154.94 45.72) (xy 154.94 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3b326ab1-490b-4f9a-aefa-1ecef8c7b943")
+	)
+	(wire
+		(pts
+			(xy 214.63 24.13) (xy 219.71 24.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3e74f834-2500-4ab9-a7f9-7f38973868be")
+	)
+	(wire
+		(pts
 			(xy 52.07 44.45) (xy 54.61 44.45)
 		)
 		(stroke
@@ -4150,13 +4362,23 @@
 	)
 	(wire
 		(pts
-			(xy 158.75 41.91) (xy 162.56 41.91)
+			(xy 194.31 40.64) (xy 198.12 40.64)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "47ad6ffc-fc3b-43e4-8a32-b764b8a8df71")
+	)
+	(wire
+		(pts
+			(xy 142.24 35.56) (xy 154.94 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "48b0239c-c95c-4415-b9ef-e259c4166222")
 	)
 	(wire
 		(pts
@@ -4170,7 +4392,7 @@
 	)
 	(wire
 		(pts
-			(xy 129.54 35.56) (xy 132.08 35.56)
+			(xy 129.54 35.56) (xy 142.24 35.56)
 		)
 		(stroke
 			(width 0)
@@ -4180,7 +4402,7 @@
 	)
 	(wire
 		(pts
-			(xy 171.45 25.4) (xy 167.64 25.4)
+			(xy 203.2 24.13) (xy 207.01 24.13)
 		)
 		(stroke
 			(width 0)
@@ -4210,6 +4432,26 @@
 	)
 	(wire
 		(pts
+			(xy 102.87 168.91) (xy 102.87 171.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5cf32b9d-2b1d-4f08-bd34-52290a22ac05")
+	)
+	(wire
+		(pts
+			(xy 154.94 35.56) (xy 161.29 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "68ed2ad6-244c-40f9-8516-d21f9340f868")
+	)
+	(wire
+		(pts
 			(xy 52.07 49.53) (xy 54.61 49.53)
 		)
 		(stroke
@@ -4227,6 +4469,16 @@
 			(type default)
 		)
 		(uuid "69b86267-acbc-4f96-b964-ab1c5891e592")
+	)
+	(wire
+		(pts
+			(xy 142.24 53.34) (xy 142.24 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6a0b166b-6eaf-441d-aa89-6bb802e67861")
 	)
 	(wire
 		(pts
@@ -4270,7 +4522,17 @@
 	)
 	(wire
 		(pts
-			(xy 229.87 55.88) (xy 229.87 58.42)
+			(xy 90.17 160.02) (xy 92.71 160.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "76707590-7ee8-4a5e-9cd1-1cd16cc9323b")
+	)
+	(wire
+		(pts
+			(xy 229.87 62.23) (xy 229.87 67.31)
 		)
 		(stroke
 			(width 0)
@@ -4300,7 +4562,7 @@
 	)
 	(wire
 		(pts
-			(xy 158.75 39.37) (xy 162.56 39.37)
+			(xy 194.31 38.1) (xy 198.12 38.1)
 		)
 		(stroke
 			(width 0)
@@ -4330,13 +4592,23 @@
 	)
 	(wire
 		(pts
-			(xy 198.12 21.59) (xy 203.2 21.59)
+			(xy 242.57 19.05) (xy 247.65 19.05)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "8aff2bc9-75c4-45aa-98e2-91e60fc41f9f")
+	)
+	(wire
+		(pts
+			(xy 142.24 57.15) (xy 129.54 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8b1e807f-faf3-4873-8c97-6643c0094a51")
 	)
 	(wire
 		(pts
@@ -4350,6 +4622,16 @@
 	)
 	(wire
 		(pts
+			(xy 142.24 35.56) (xy 142.24 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "999c1469-d36d-4bc3-9970-0e700e09b377")
+	)
+	(wire
+		(pts
 			(xy 92.71 53.34) (xy 92.71 57.15)
 		)
 		(stroke
@@ -4360,7 +4642,7 @@
 	)
 	(wire
 		(pts
-			(xy 198.12 35.56) (xy 203.2 35.56)
+			(xy 242.57 30.48) (xy 247.65 30.48)
 		)
 		(stroke
 			(width 0)
@@ -4380,7 +4662,7 @@
 	)
 	(wire
 		(pts
-			(xy 198.12 46.99) (xy 203.2 46.99)
+			(xy 242.57 41.91) (xy 247.65 41.91)
 		)
 		(stroke
 			(width 0)
@@ -4410,7 +4692,7 @@
 	)
 	(wire
 		(pts
-			(xy 198.12 49.53) (xy 203.2 49.53)
+			(xy 242.57 44.45) (xy 247.65 44.45)
 		)
 		(stroke
 			(width 0)
@@ -4430,7 +4712,7 @@
 	)
 	(wire
 		(pts
-			(xy 198.12 38.1) (xy 203.2 38.1)
+			(xy 242.57 33.02) (xy 247.65 33.02)
 		)
 		(stroke
 			(width 0)
@@ -4450,7 +4732,17 @@
 	)
 	(wire
 		(pts
-			(xy 198.12 44.45) (xy 203.2 44.45)
+			(xy 121.92 147.32) (xy 118.11 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b520cc9d-2341-4c33-8fbf-9f0c2b6f2bec")
+	)
+	(wire
+		(pts
+			(xy 242.57 39.37) (xy 247.65 39.37)
 		)
 		(stroke
 			(width 0)
@@ -4480,6 +4772,16 @@
 	)
 	(wire
 		(pts
+			(xy 208.28 110.49) (xy 212.09 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bb7fe8d6-8391-446c-8fbd-74c3452621f6")
+	)
+	(wire
+		(pts
 			(xy 208.28 74.93) (xy 212.09 74.93)
 		)
 		(stroke
@@ -4487,6 +4789,16 @@
 			(type default)
 		)
 		(uuid "bd36cba7-0cc2-4386-a0c1-a0e07cb4249b")
+	)
+	(wire
+		(pts
+			(xy 99.06 168.91) (xy 102.87 168.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bea6df12-917c-478f-959c-cfa3b2b27185")
 	)
 	(wire
 		(pts
@@ -4510,6 +4822,16 @@
 	)
 	(wire
 		(pts
+			(xy 154.94 53.34) (xy 154.94 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c00b34b2-9230-4c60-b774-610dbb8a1c8f")
+	)
+	(wire
+		(pts
 			(xy 38.1 104.14) (xy 38.1 105.41)
 		)
 		(stroke
@@ -4530,7 +4852,7 @@
 	)
 	(wire
 		(pts
-			(xy 158.75 52.07) (xy 162.56 52.07)
+			(xy 194.31 50.8) (xy 198.12 50.8)
 		)
 		(stroke
 			(width 0)
@@ -4570,6 +4892,16 @@
 	)
 	(wire
 		(pts
+			(xy 121.92 149.86) (xy 118.11 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e1af8db5-c2d1-483c-ada6-49ade4e65635")
+	)
+	(wire
+		(pts
 			(xy 129.54 53.34) (xy 129.54 57.15)
 		)
 		(stroke
@@ -4577,6 +4909,26 @@
 			(type default)
 		)
 		(uuid "e22cc20d-9d7c-42ec-80d0-1a962db5efeb")
+	)
+	(wire
+		(pts
+			(xy 208.28 95.25) (xy 212.09 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e3ad025d-908e-42ca-b9fa-8d1ca5fe2bd2")
+	)
+	(wire
+		(pts
+			(xy 208.28 97.79) (xy 212.09 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e6368dbd-66b1-4374-b1f4-54edee931408")
 	)
 	(wire
 		(pts
@@ -4610,6 +4962,26 @@
 	)
 	(wire
 		(pts
+			(xy 154.94 57.15) (xy 142.24 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f34ecb5a-5c79-4338-96ac-7ee686a780ce")
+	)
+	(wire
+		(pts
+			(xy 90.17 157.48) (xy 92.71 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f462e246-b6cb-4f9d-aa8c-46be922695e6")
+	)
+	(wire
+		(pts
 			(xy 262.89 77.47) (xy 257.81 77.47)
 		)
 		(stroke
@@ -4639,7 +5011,7 @@
 		(uuid "fd8c3200-eb54-4bbb-8be3-fda86544f4d3")
 	)
 	(label "DEBUG_TX"
-		(at 198.12 44.45 180)
+		(at 242.57 39.37 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4647,6 +5019,16 @@
 			(justify right bottom)
 		)
 		(uuid "05b67b03-a47a-4b8e-8347-716522ef28a3")
+	)
+	(label "SPEAKER_-"
+		(at 121.92 149.86 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "10cf4da6-c2ff-4cfb-a277-ca4b5771bfcf")
 	)
 	(label "DEBUG_TX"
 		(at 208.28 90.17 180)
@@ -4669,7 +5051,7 @@
 		(uuid "1b4f5a20-00d8-4849-a421-8f5924fe4e78")
 	)
 	(label "DEBUG_SWCLK"
-		(at 198.12 33.02 180)
+		(at 242.57 27.94 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4677,6 +5059,16 @@
 			(justify right bottom)
 		)
 		(uuid "1fcaa507-353a-408e-b799-403e469d2b73")
+	)
+	(label "SPEAKER_SCL"
+		(at 92.71 149.86 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "229e9a15-72a3-4e03-9161-b384518ba69f")
 	)
 	(label "USB_VBUS"
 		(at 78.74 93.98 180)
@@ -4688,8 +5080,18 @@
 		)
 		(uuid "28ffccbc-4485-45ac-ba40-313ec9eeaa53")
 	)
+	(label "SPEAKER_SDA"
+		(at 208.28 95.25 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "2e69bad8-09aa-4270-9d1e-daa947c13ae4")
+	)
 	(label "BAT_+"
-		(at 132.08 35.56 0)
+		(at 161.29 35.56 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4719,7 +5121,7 @@
 		(uuid "40f22a18-3e7e-44b7-9286-4aa6b74e1213")
 	)
 	(label "SPEAKER_-"
-		(at 198.12 24.13 180)
+		(at 242.57 21.59 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4728,8 +5130,28 @@
 		)
 		(uuid "41f0c23a-4d26-4089-88a0-88837c0e80c3")
 	)
+	(label "SW_+"
+		(at 219.71 24.13 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "4221fe92-7860-4d6f-86fb-c0f6aac46b5b")
+	)
+	(label "SW_+"
+		(at 105.41 137.16 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "48c1d3bd-7949-4ce9-83a7-66bdabe985a6")
+	)
 	(label "DEBUG_RX"
-		(at 198.12 49.53 180)
+		(at 242.57 44.45 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4737,6 +5159,26 @@
 			(justify right bottom)
 		)
 		(uuid "4b178c13-651d-49d7-9d90-4e14cd47dd1a")
+	)
+	(label "BAT_-"
+		(at 102.87 171.45 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "4cdff09b-5d19-4cc2-ac74-2d0e9ec830b5")
+	)
+	(label "SPEAKER_SDA"
+		(at 92.71 147.32 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "4ce69003-43b2-4a6c-a117-f7b1b2fd37fd")
 	)
 	(label "USB_GND"
 		(at 262.89 74.93 0)
@@ -4759,7 +5201,7 @@
 		(uuid "56fcee5c-b486-47ac-b39b-69b47cb01bea")
 	)
 	(label "BAT_+"
-		(at 158.75 39.37 180)
+		(at 194.31 38.1 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4819,7 +5261,7 @@
 		(uuid "711500e9-cd8e-4d52-b81d-5e6ddc7f78ef")
 	)
 	(label "DEBUG_GND"
-		(at 198.12 35.56 180)
+		(at 242.57 30.48 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4839,7 +5281,7 @@
 		(uuid "7760fb73-7550-4e89-a293-56f205f26a34")
 	)
 	(label "DEBUG_SWDIO"
-		(at 198.12 38.1 180)
+		(at 242.57 33.02 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4858,8 +5300,18 @@
 		)
 		(uuid "7efcda97-f556-4be1-a613-1fafe7e88bd8")
 	)
+	(label "WS2812B_DIN"
+		(at 208.28 110.49 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "81e1ee3b-ed1c-4eb6-829d-7ab8512adccf")
+	)
 	(label "SW_+"
-		(at 229.87 55.88 90)
+		(at 229.87 62.23 90)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4877,6 +5329,16 @@
 			(justify right bottom)
 		)
 		(uuid "8ccf9afd-510d-4c21-9094-9c21ea8884af")
+	)
+	(label "SPEAKER_LRC"
+		(at 92.71 152.4 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "9166b09d-6d60-4a4a-a0d8-301ddbf1f7ac")
 	)
 	(label "STAT_SENSE"
 		(at 264.16 123.19 0)
@@ -4899,7 +5361,7 @@
 		(uuid "93279552-6feb-43ed-af00-41d02f6c570f")
 	)
 	(label "DEBUG_GND"
-		(at 198.12 46.99 180)
+		(at 242.57 41.91 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4909,7 +5371,7 @@
 		(uuid "95062732-a25a-4ebe-a8a7-364c8962c330")
 	)
 	(label "BAT_-"
-		(at 158.75 41.91 180)
+		(at 194.31 40.64 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4929,7 +5391,7 @@
 		(uuid "9e87e928-08ce-45c9-97fb-632af19a542e")
 	)
 	(label "BAT_-"
-		(at 158.75 52.07 180)
+		(at 194.31 50.8 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4938,18 +5400,8 @@
 		)
 		(uuid "a356eeba-af06-4ef6-a85f-32e71b66517d")
 	)
-	(label "SW_+"
-		(at 171.45 25.4 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "b0e828ca-83cf-4311-9bee-3c1164a94e04")
-	)
 	(label "SPEAKER_+"
-		(at 198.12 21.59 180)
+		(at 242.57 19.05 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4957,6 +5409,16 @@
 			(justify right bottom)
 		)
 		(uuid "b3e4922d-1e94-49fa-a0ab-c2289421ae4c")
+	)
+	(label "SPEAKER_LRC"
+		(at 208.28 100.33 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "b58683ae-8035-4f18-8846-37ceb7fd123f")
 	)
 	(label "USB_D+"
 		(at 54.61 46.99 0)
@@ -4978,8 +5440,18 @@
 		)
 		(uuid "ba22e5fd-83e7-4efe-9adf-6e09e5ebcf72")
 	)
+	(label "SPEAKER_SCL"
+		(at 208.28 97.79 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "c7d2bc2b-747e-454b-98eb-b63a983db695")
+	)
 	(label "BAT_+"
-		(at 153.67 25.4 180)
+		(at 189.23 24.13 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4998,7 +5470,7 @@
 		)
 		(uuid "cbdc2ab6-db16-4729-950b-fc07f8554fa0")
 	)
-	(label "STAT_SENSE"
+	(label "BAT_STAT"
 		(at 115.57 40.64 0)
 		(effects
 			(font
@@ -5028,15 +5500,15 @@
 		)
 		(uuid "d59d69c1-da24-4198-bb7f-46d2a6fa5926")
 	)
-	(label "WS2812B_DIN"
-		(at 208.28 100.33 180)
+	(label "SPEAKER_+"
+		(at 121.92 147.32 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify left bottom)
 		)
-		(uuid "d5a2831c-2d78-4f37-92a7-8fdef60e9474")
+		(uuid "d7779b10-4700-4924-b3f7-fb642869d69a")
 	)
 	(label "BAT_SENSE"
 		(at 35.56 105.41 180)
@@ -5079,7 +5551,7 @@
 		(uuid "ea034188-448a-4d27-b2e6-744c337b0435")
 	)
 	(label "WS2812B_DIN"
-		(at 158.75 54.61 180)
+		(at 194.31 53.34 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5089,7 +5561,7 @@
 		(uuid "f2a9066a-e3ed-4c0d-b207-90dcdb39a1e2")
 	)
 	(label "SW_+"
-		(at 158.75 49.53 180)
+		(at 194.31 48.26 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5172,7 +5644,7 @@
 			(uuid "6e71b2c0-fb96-46ee-985d-4bcb1c1844d7")
 		)
 		(instances
-			(project "MiniHakkeroEDA"
+			(project "Base"
 				(path "/86209ff5-e3e5-4edf-9087-a19295ca511e"
 					(reference "R2")
 					(unit 1)
@@ -5254,7 +5726,7 @@
 			(uuid "9c18827f-8144-4510-8d35-9ea120af17d8")
 		)
 		(instances
-			(project "MiniHakkeroEDA"
+			(project "Base"
 				(path "/86209ff5-e3e5-4edf-9087-a19295ca511e"
 					(reference "C1")
 					(unit 1)
@@ -5336,7 +5808,7 @@
 			(uuid "59ad3dba-9b54-47aa-88e9-3ca6d4e5fc40")
 		)
 		(instances
-			(project "MiniHakkeroEDA"
+			(project "Base"
 				(path "/86209ff5-e3e5-4edf-9087-a19295ca511e"
 					(reference "R5")
 					(unit 1)
@@ -5346,7 +5818,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x02")
-		(at 208.28 21.59 0)
+		(at 252.73 19.05 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5357,7 +5829,7 @@
 		(fields_autoplaced yes)
 		(uuid "2fdf6d95-876f-4adc-b5e4-b3786a208793")
 		(property "Reference" "J4"
-			(at 210.82 21.5899 0)
+			(at 255.27 19.0499 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5368,7 +5840,7 @@
 			)
 		)
 		(property "Value" "JST_speaker"
-			(at 210.82 24.1299 0)
+			(at 255.27 21.5899 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5379,7 +5851,7 @@
 			)
 		)
 		(property "Footprint" "Connector_JST:JST_PH_B2B-PH-SM4-TB_1x02-1MP_P2.00mm_Vertical"
-			(at 208.28 21.59 0)
+			(at 252.73 19.05 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5390,7 +5862,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 208.28 21.59 0)
+			(at 252.73 19.05 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5401,7 +5873,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 208.28 21.59 0)
+			(at 252.73 19.05 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5418,7 +5890,7 @@
 			(uuid "7e802862-a279-454a-8d12-f41acde292fe")
 		)
 		(instances
-			(project "MiniHakkeroEDA"
+			(project "Base"
 				(path "/86209ff5-e3e5-4edf-9087-a19295ca511e"
 					(reference "J4")
 					(unit 1)
@@ -5500,7 +5972,7 @@
 			(uuid "57479aa7-bf0d-43ae-933e-2aa2497d3052")
 		)
 		(instances
-			(project "MiniHakkeroEDA"
+			(project "Base"
 				(path "/86209ff5-e3e5-4edf-9087-a19295ca511e"
 					(reference "C2")
 					(unit 1)
@@ -5510,7 +5982,7 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_SPST")
-		(at 162.56 25.4 0)
+		(at 198.12 24.13 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5521,7 +5993,7 @@
 		(fields_autoplaced yes)
 		(uuid "34d156fa-707d-4a98-9767-36cea365a1ed")
 		(property "Reference" "SW1"
-			(at 162.56 19.05 0)
+			(at 198.12 17.78 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5531,7 +6003,7 @@
 			)
 		)
 		(property "Value" "SW_power"
-			(at 162.56 21.59 0)
+			(at 198.12 20.32 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5541,7 +6013,7 @@
 			)
 		)
 		(property "Footprint" "Button_Switch_SMD:SW_SPST_B3U-3000P"
-			(at 162.56 25.4 0)
+			(at 198.12 24.13 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5552,7 +6024,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 162.56 25.4 0)
+			(at 198.12 24.13 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5563,7 +6035,7 @@
 			)
 		)
 		(property "Description" "Single Pole Single Throw (SPST) switch"
-			(at 162.56 25.4 0)
+			(at 198.12 24.13 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5580,9 +6052,86 @@
 			(uuid "e7d4a735-dcb9-45d2-a0ee-2d3bc2fc3b6f")
 		)
 		(instances
-			(project "MiniHakkeroEDA"
+			(project "Base"
 				(path "/86209ff5-e3e5-4edf-9087-a19295ca511e"
 					(reference "SW1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x01")
+		(at 85.09 160.02 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "3938acdd-82d1-4e8a-b97c-a699b3e3ba14")
+		(property "Reference" "J8"
+			(at 62.23 160.02 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_speaker_gain"
+			(at 83.058 160.02 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_THTPad_1.0x1.0mm_Drill0.5mm"
+			(at 85.09 160.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 85.09 160.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 85.09 160.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "b6544cd0-d510-4844-8a67-878782ba0b5c")
+		)
+		(instances
+			(project "Base"
+				(path "/86209ff5-e3e5-4edf-9087-a19295ca511e"
+					(reference "J8")
 					(unit 1)
 				)
 			)
@@ -5662,7 +6211,7 @@
 			(uuid "8cc9b0bb-ef6f-48d0-9407-bb2c949a6a83")
 		)
 		(instances
-			(project "MiniHakkeroEDA"
+			(project "Base"
 				(path "/86209ff5-e3e5-4edf-9087-a19295ca511e"
 					(reference "R4")
 					(unit 1)
@@ -5787,9 +6336,86 @@
 			(uuid "cb8dc6dc-2a57-4134-8a9f-e0211c96e5b1")
 		)
 		(instances
-			(project "MiniHakkeroEDA"
+			(project "Base"
 				(path "/86209ff5-e3e5-4edf-9087-a19295ca511e"
 					(reference "J1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x01")
+		(at 93.98 168.91 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "44d805de-2048-4136-bce9-d3ab8fd0e06f")
+		(property "Reference" "J9"
+			(at 71.12 168.91 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_speaker_gnd"
+			(at 91.948 168.91 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_THTPad_1.0x1.0mm_Drill0.5mm"
+			(at 93.98 168.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 93.98 168.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 93.98 168.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "d8a0ec29-68ab-436c-9559-92e15fc3d1dc")
+		)
+		(instances
+			(project "Base"
+				(path "/86209ff5-e3e5-4edf-9087-a19295ca511e"
+					(reference "J9")
 					(unit 1)
 				)
 			)
@@ -5869,7 +6495,7 @@
 			(uuid "7a555eba-476d-4133-a5b0-bb14442f1282")
 		)
 		(instances
-			(project "MiniHakkeroEDA"
+			(project "Base"
 				(path "/86209ff5-e3e5-4edf-9087-a19295ca511e"
 					(reference "R6")
 					(unit 1)
@@ -6092,7 +6718,7 @@
 			(uuid "d50021cc-59b3-4bf5-8d57-82793218a598")
 		)
 		(instances
-			(project "MiniHakkeroEDA"
+			(project "Base"
 				(path "/86209ff5-e3e5-4edf-9087-a19295ca511e"
 					(reference "A1")
 					(unit 1)
@@ -6102,7 +6728,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x03")
-		(at 208.28 46.99 0)
+		(at 252.73 41.91 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6113,7 +6739,7 @@
 		(fields_autoplaced yes)
 		(uuid "875989ad-f375-4923-abae-642381d0c021")
 		(property "Reference" "J6"
-			(at 210.82 45.7199 0)
+			(at 255.27 40.6399 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6123,8 +6749,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "JST_debug"
-			(at 210.82 48.2599 0)
+		(property "Value" "JST_debug_serial"
+			(at 255.27 43.1799 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6135,7 +6761,7 @@
 			)
 		)
 		(property "Footprint" "Connector_JST:JST_SH_BM03B-SRSS-TB_1x03-1MP_P1.00mm_Vertical"
-			(at 208.28 46.99 0)
+			(at 252.73 41.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6146,7 +6772,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 208.28 46.99 0)
+			(at 252.73 41.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6157,7 +6783,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 208.28 46.99 0)
+			(at 252.73 41.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6177,7 +6803,7 @@
 			(uuid "be33f430-b799-47db-adc3-067bd96cf8c7")
 		)
 		(instances
-			(project "MiniHakkeroEDA"
+			(project "Base"
 				(path "/86209ff5-e3e5-4edf-9087-a19295ca511e"
 					(reference "J6")
 					(unit 1)
@@ -6187,7 +6813,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x04")
-		(at 167.64 52.07 0)
+		(at 203.2 50.8 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6197,7 +6823,7 @@
 		(dnp no)
 		(uuid "8c8360f8-9e02-4417-a531-3f94df3be669")
 		(property "Reference" "J3"
-			(at 170.942 50.292 0)
+			(at 206.502 49.022 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6207,7 +6833,7 @@
 			)
 		)
 		(property "Value" "JST_header"
-			(at 175.26 52.324 0)
+			(at 210.82 51.054 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6217,7 +6843,7 @@
 			)
 		)
 		(property "Footprint" "Connector_JST:JST_SH_BM04B-SRSS-TB_1x04-1MP_P1.00mm_Vertical"
-			(at 167.64 52.07 0)
+			(at 203.2 50.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6228,7 +6854,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 167.64 52.07 0)
+			(at 203.2 50.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6239,7 +6865,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 167.64 52.07 0)
+			(at 203.2 50.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6262,7 +6888,7 @@
 			(uuid "8dce0236-0864-4fdc-89a0-d7e1c1ddb760")
 		)
 		(instances
-			(project "MiniHakkeroEDA"
+			(project "Base"
 				(path "/86209ff5-e3e5-4edf-9087-a19295ca511e"
 					(reference "J3")
 					(unit 1)
@@ -6344,7 +6970,7 @@
 			(uuid "956ffd49-8a78-4128-b96c-21f12c41ebdd")
 		)
 		(instances
-			(project "MiniHakkeroEDA"
+			(project "Base"
 				(path "/86209ff5-e3e5-4edf-9087-a19295ca511e"
 					(reference "R3")
 					(unit 1)
@@ -6353,8 +6979,90 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C")
+		(at 142.24 49.53 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b1a20587-31b2-43ba-a098-347a81b0d39e")
+		(property "Reference" "C3"
+			(at 146.05 48.2599 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "4.7uF"
+			(at 146.05 50.7999 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+			(at 141.2748 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 142.24 49.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 142.24 49.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "ad75f9d9-8c88-4ce5-8256-1a0f109da8e6")
+		)
+		(pin "2"
+			(uuid "1234f8ae-616c-47ef-b7c2-1f3134c8a41d")
+		)
+		(instances
+			(project "Base"
+				(path "/86209ff5-e3e5-4edf-9087-a19295ca511e"
+					(reference "C3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Audio:MAX98357A")
-		(at 99.06 157.48 0)
+		(at 105.41 154.94 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6365,7 +7073,7 @@
 		(fields_autoplaced yes)
 		(uuid "bba60419-dc2b-4e8d-bdb1-48daf70816ba")
 		(property "Reference" "U2"
-			(at 101.2033 142.24 0)
+			(at 107.5533 139.7 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6376,7 +7084,7 @@
 			)
 		)
 		(property "Value" "MAX98357A"
-			(at 101.2033 144.78 0)
+			(at 107.5533 142.24 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6387,7 +7095,7 @@
 			)
 		)
 		(property "Footprint" "Package_DFN_QFN:TQFN-16-1EP_3x3mm_P0.5mm_EP1.23x1.23mm"
-			(at 97.79 160.02 0)
+			(at 104.14 157.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6398,7 +7106,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.analog.com/media/en/technical-documentation/data-sheets/MAX98357A-MAX98357B.pdf"
-			(at 99.06 160.02 0)
+			(at 105.41 157.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6409,7 +7117,7 @@
 			)
 		)
 		(property "Description" "Mono DAC with amplifier, I2S, PCM, TDM, 32-bit, 96khz, 3.2W, TQFP-16"
-			(at 99.06 157.48 0)
+			(at 105.41 154.94 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6471,7 +7179,7 @@
 			(uuid "259d3df7-e7ba-46bd-8ef9-410fb41dd48e")
 		)
 		(instances
-			(project "MiniHakkeroEDA"
+			(project "Base"
 				(path "/86209ff5-e3e5-4edf-9087-a19295ca511e"
 					(reference "U2")
 					(unit 1)
@@ -6564,7 +7272,7 @@
 			(uuid "91dd4baa-d54a-46de-afd6-fd1825e4efa6")
 		)
 		(instances
-			(project "MiniHakkeroEDA"
+			(project "Base"
 				(path "/86209ff5-e3e5-4edf-9087-a19295ca511e"
 					(reference "U1")
 					(unit 1)
@@ -6573,8 +7281,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector_Generic:Conn_01x03")
-		(at 208.28 35.56 0)
+		(lib_id "Device:C")
+		(at 154.94 49.53 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6583,31 +7291,31 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "c49c09db-3d71-4a07-852d-3162ab7d5458")
-		(property "Reference" "J5"
-			(at 210.82 34.2899 0)
+		(uuid "c2fb0606-3d89-4136-93de-b85d313b11ad")
+		(property "Reference" "C4"
+			(at 158.75 48.2599 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
-		(property "Value" "JST_debug"
-			(at 210.82 36.8299 0)
+		(property "Value" "4.7uF"
+			(at 158.75 50.7999 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
-		(property "Footprint" "Connector_JST:JST_SH_BM03B-SRSS-TB_1x03-1MP_P1.00mm_Vertical"
-			(at 208.28 35.56 0)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+			(at 153.9748 45.72 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6618,7 +7326,89 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 208.28 35.56 0)
+			(at 154.94 49.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 154.94 49.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "529fd625-419f-4568-a8aa-03e5cfba384b")
+		)
+		(pin "2"
+			(uuid "1308918b-22df-4505-b156-1af0179056ba")
+		)
+		(instances
+			(project "Base"
+				(path "/86209ff5-e3e5-4edf-9087-a19295ca511e"
+					(reference "C4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x03")
+		(at 252.73 30.48 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c49c09db-3d71-4a07-852d-3162ab7d5458")
+		(property "Reference" "J5"
+			(at 255.27 29.2099 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "JST_debug_swd"
+			(at 255.27 31.7499 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_JST:JST_SH_BM03B-SRSS-TB_1x03-1MP_P1.00mm_Vertical"
+			(at 252.73 30.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 252.73 30.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6629,7 +7419,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 208.28 35.56 0)
+			(at 252.73 30.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6649,7 +7439,7 @@
 			(uuid "db942685-9222-47ad-94fe-b3a46f68618d")
 		)
 		(instances
-			(project "MiniHakkeroEDA"
+			(project "Base"
 				(path "/86209ff5-e3e5-4edf-9087-a19295ca511e"
 					(reference "J5")
 					(unit 1)
@@ -6658,8 +7448,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector_Generic:Conn_01x02")
-		(at 167.64 39.37 0)
+		(lib_id "Connector_Generic:Conn_01x01")
+		(at 85.09 157.48 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6667,10 +7457,19 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "cc7b46c9-62ce-4be4-a315-3c7bcc22115b")
-		(property "Reference" "J2"
-			(at 170.18 39.3699 0)
+		(uuid "ca5a6b8f-d5d8-414c-962c-f7ebec743acb")
+		(property "Reference" "J7"
+			(at 62.484 157.48 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_speaker_sd"
+			(at 83.058 157.48 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6680,19 +7479,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "JST_battery"
-			(at 170.18 41.9099 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Connector_JST:JST_SH_SM02B-SRSS-TB_1x02-1MP_P1.00mm_Horizontal"
-			(at 167.64 39.37 0)
+		(property "Footprint" "TestPoint:TestPoint_THTPad_1.0x1.0mm_Drill0.5mm"
+			(at 85.09 157.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6703,7 +7491,86 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 167.64 39.37 0)
+			(at 85.09 157.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 85.09 157.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "7b973905-4289-4eae-91c2-8c56b04a38ec")
+		)
+		(instances
+			(project "Base"
+				(path "/86209ff5-e3e5-4edf-9087-a19295ca511e"
+					(reference "J7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x02")
+		(at 203.2 38.1 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cc7b46c9-62ce-4be4-a315-3c7bcc22115b")
+		(property "Reference" "J2"
+			(at 205.74 38.0999 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "JST_battery"
+			(at 205.74 40.6399 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_JST:JST_SH_SM02B-SRSS-TB_1x02-1MP_P1.00mm_Horizontal"
+			(at 203.2 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 203.2 38.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6714,7 +7581,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 167.64 39.37 0)
+			(at 203.2 38.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6731,7 +7598,7 @@
 			(uuid "0c40a859-8091-4769-b92f-b902ef5bbd78")
 		)
 		(instances
-			(project "MiniHakkeroEDA"
+			(project "Base"
 				(path "/86209ff5-e3e5-4edf-9087-a19295ca511e"
 					(reference "J2")
 					(unit 1)
@@ -6813,7 +7680,7 @@
 			(uuid "8d16d596-b778-4750-b103-b5d3983cd12e")
 		)
 		(instances
-			(project "MiniHakkeroEDA"
+			(project "Base"
 				(path "/86209ff5-e3e5-4edf-9087-a19295ca511e"
 					(reference "R7")
 					(unit 1)
@@ -6895,7 +7762,7 @@
 			(uuid "29a09063-5853-4a1c-a94e-feae751798c3")
 		)
 		(instances
-			(project "MiniHakkeroEDA"
+			(project "Base"
 				(path "/86209ff5-e3e5-4edf-9087-a19295ca511e"
 					(reference "R1")
 					(unit 1)
@@ -6905,7 +7772,7 @@
 	)
 	(symbol
 		(lib_id "Diode:SS12")
-		(at 229.87 62.23 90)
+		(at 210.82 24.13 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6914,31 +7781,29 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "fa6e2052-809e-47a5-a633-e406e9725f57")
+		(uuid "e61c6c07-0a9e-4674-8f9b-1da6033fb1f7")
 		(property "Reference" "D1"
-			(at 232.41 61.2774 90)
+			(at 211.1375 17.78 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
 		(property "Value" "SS12"
-			(at 232.41 63.8174 90)
+			(at 211.1375 20.32 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_SMA"
-			(at 234.315 62.23 0)
+			(at 210.82 19.685 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6949,7 +7814,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.vishay.com/docs/88746/ss12.pdf"
-			(at 229.87 62.23 0)
+			(at 210.82 24.13 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6960,7 +7825,7 @@
 			)
 		)
 		(property "Description" "20V 1A Schottky Diode, SMA"
-			(at 229.87 62.23 0)
+			(at 210.82 24.13 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6971,13 +7836,13 @@
 			)
 		)
 		(pin "1"
-			(uuid "ca5475c5-fba8-4550-a126-a1c8deb306a4")
+			(uuid "9c1f6fc8-4f23-4d1f-80bf-a44bf8bcfaef")
 		)
 		(pin "2"
-			(uuid "ef1ffffb-1625-424c-a240-774a46893301")
+			(uuid "07039c3a-d7b8-4ed4-ac9c-2d5b6701532c")
 		)
 		(instances
-			(project "MiniHakkeroEDA"
+			(project "Base"
 				(path "/86209ff5-e3e5-4edf-9087-a19295ca511e"
 					(reference "D1")
 					(unit 1)
