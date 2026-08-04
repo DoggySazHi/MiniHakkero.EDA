@@ -529,7 +529,7 @@
     "last_paths": {
       "idf": "",
       "netlist": "",
-      "plot": "",
+      "plot": "BaseOut",
       "specctra_dsn": "",
       "step": "",
       "vrml": ""
