@@ -4051,6 +4051,12 @@
 		(uuid "54291cc8-ac18-4bb8-9d6c-b54117232cbf")
 	)
 	(junction
+		(at 67.31 36.83)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7b7564ac-67dc-44a2-ba16-654d28930cd5")
+	)
+	(junction
 		(at 234.95 143.51)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4139,6 +4145,16 @@
 			(type default)
 		)
 		(uuid "0d01f620-62f3-4055-af15-f86d393d0d10")
+	)
+	(wire
+		(pts
+			(xy 52.07 36.83) (xy 54.61 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0d280db0-23b1-42ab-9edf-a6502e5679ad")
 	)
 	(wire
 		(pts
@@ -4612,6 +4628,16 @@
 	)
 	(wire
 		(pts
+			(xy 52.07 34.29) (xy 54.61 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8b8e2a80-20f1-450b-872e-ccdc3db3ce3e")
+	)
+	(wire
+		(pts
 			(xy 38.1 118.11) (xy 38.1 114.3)
 		)
 		(stroke
@@ -4742,6 +4768,16 @@
 	)
 	(wire
 		(pts
+			(xy 67.31 36.83) (xy 67.31 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b6b849c5-7c53-4f9c-8504-87239fd81a14")
+	)
+	(wire
+		(pts
 			(xy 242.57 39.37) (xy 247.65 39.37)
 		)
 		(stroke
@@ -4769,6 +4805,16 @@
 			(type default)
 		)
 		(uuid "b9c788bb-73fe-4016-81dd-c9a4f348c2ac")
+	)
+	(wire
+		(pts
+			(xy 67.31 39.37) (xy 67.31 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b9e676b7-2d00-4ec0-b01d-18daa2ef34c1")
 	)
 	(wire
 		(pts
@@ -4962,6 +5008,16 @@
 	)
 	(wire
 		(pts
+			(xy 67.31 34.29) (xy 62.23 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f100247f-b3d3-49e9-8635-1368b5b30b60")
+	)
+	(wire
+		(pts
 			(xy 154.94 57.15) (xy 142.24 57.15)
 		)
 		(stroke
@@ -4979,6 +5035,16 @@
 			(type default)
 		)
 		(uuid "f462e246-b6cb-4f9d-aa8c-46be922695e6")
+	)
+	(wire
+		(pts
+			(xy 62.23 36.83) (xy 67.31 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f6316ffb-1679-4d85-9c32-76fc887c1bcd")
 	)
 	(wire
 		(pts
@@ -5539,6 +5605,16 @@
 			(justify left bottom)
 		)
 		(uuid "e5682e5a-937c-4d06-85b7-47233c09b94f")
+	)
+	(label "USB_GND"
+		(at 67.31 39.37 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "e5a265a7-9c0e-4268-baa6-7382bf38f01b")
 	)
 	(label "USB_D-"
 		(at 262.89 77.47 0)
@@ -6727,6 +6803,85 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R_US")
+		(at 58.42 36.83 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "713b0984-509c-4d36-888e-0536ab6fa852")
+		(property "Reference" "R9"
+			(at 54.61 35.814 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "5.1k"
+			(at 62.992 35.56 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 58.674 35.814 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 58.42 36.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 58.42 36.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "6d40abc5-b9d6-4d3c-8e8e-bf73eedaf1c6")
+		)
+		(pin "2"
+			(uuid "ce1577b2-8316-45a3-935c-085cf8e01cfc")
+		)
+		(instances
+			(project "Base"
+				(path "/86209ff5-e3e5-4edf-9087-a19295ca511e"
+					(reference "R9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector_Generic:Conn_01x03")
 		(at 252.73 41.91 0)
 		(unit 1)
@@ -6973,6 +7128,85 @@
 			(project "Base"
 				(path "/86209ff5-e3e5-4edf-9087-a19295ca511e"
 					(reference "R3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 58.42 34.29 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "a36b2c9e-4d5f-46b7-8a54-d566d8d74eff")
+		(property "Reference" "R8"
+			(at 54.61 32.766 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "5.1k"
+			(at 62.992 32.766 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 58.674 33.274 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 58.42 34.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 58.42 34.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "1cbad251-7141-4470-9fec-3a7d5d68790e")
+		)
+		(pin "2"
+			(uuid "3d988ccb-aaf7-4007-96f8-882d2cd92dc8")
+		)
+		(instances
+			(project "Base"
+				(path "/86209ff5-e3e5-4edf-9087-a19295ca511e"
+					(reference "R8")
 					(unit 1)
 				)
 			)
