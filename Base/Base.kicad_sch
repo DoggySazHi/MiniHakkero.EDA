@@ -4081,6 +4081,12 @@
 		(uuid "b0c0dc72-3513-48d9-912b-bcbf0d80b1d5")
 	)
 	(junction
+		(at 231.14 143.51)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c2caccad-e184-47ad-ba43-024ace3b9fab")
+	)
+	(junction
 		(at 142.24 35.56)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4205,6 +4211,16 @@
 			(type default)
 		)
 		(uuid "19e1a048-4fca-4b42-97ff-4211818d2b58")
+	)
+	(wire
+		(pts
+			(xy 227.33 146.05) (xy 227.33 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1d95c590-a700-48fb-a67c-ca3bf5ed7952")
 	)
 	(wire
 		(pts
@@ -4535,6 +4551,16 @@
 			(type default)
 		)
 		(uuid "711c6060-0e3a-4911-b492-3618d4afac51")
+	)
+	(wire
+		(pts
+			(xy 227.33 143.51) (xy 231.14 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "742be46b-95a2-4816-8fed-f64865f960e1")
 	)
 	(wire
 		(pts
@@ -5176,16 +5202,6 @@
 		)
 		(uuid "39955e19-2265-450d-8042-e67f70b9a076")
 	)
-	(label "USB_SENSE"
-		(at 264.16 120.65 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "40f22a18-3e7e-44b7-9286-4aa6b74e1213")
-	)
 	(label "SPEAKER_-"
 		(at 242.57 21.59 180)
 		(effects
@@ -5225,6 +5241,16 @@
 			(justify right bottom)
 		)
 		(uuid "4b178c13-651d-49d7-9d90-4e14cd47dd1a")
+	)
+	(label "USB_SENSE"
+		(at 264.16 123.19 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "4c88c3ef-a656-4aea-b78d-09e73bc0bf40")
 	)
 	(label "BAT_-"
 		(at 102.87 171.45 270)
@@ -5305,6 +5331,16 @@
 			(justify right bottom)
 		)
 		(uuid "660331bf-04c9-496e-abf0-ff1560417ef2")
+	)
+	(label "USB_GND"
+		(at 227.33 146.05 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "6b60c797-3f80-4804-aba1-5594a066538a")
 	)
 	(label "USB_D-"
 		(at 54.61 41.91 0)
@@ -5406,16 +5442,6 @@
 		)
 		(uuid "9166b09d-6d60-4a4a-a0d8-301ddbf1f7ac")
 	)
-	(label "STAT_SENSE"
-		(at 264.16 123.19 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "91eb6468-f159-49bb-8af3-db4a3664c1b5")
-	)
 	(label "USB_VBUS"
 		(at 54.61 29.21 0)
 		(effects
@@ -5505,6 +5531,16 @@
 			(justify right bottom)
 		)
 		(uuid "ba22e5fd-83e7-4efe-9adf-6e09e5ebcf72")
+	)
+	(label "BAT_SENSE"
+		(at 264.16 118.11 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "c79b0790-532f-4ca2-8492-0e2de1523b72")
 	)
 	(label "SPEAKER_SCL"
 		(at 208.28 97.79 180)
@@ -5596,16 +5632,6 @@
 		)
 		(uuid "e1f884b1-7a0f-4858-b3e7-11ecd7fa039d")
 	)
-	(label "BAT_SENSE"
-		(at 264.16 118.11 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "e5682e5a-937c-4d06-85b7-47233c09b94f")
-	)
 	(label "USB_GND"
 		(at 67.31 39.37 270)
 		(effects
@@ -5625,6 +5651,16 @@
 			(justify left bottom)
 		)
 		(uuid "ea034188-448a-4d27-b2e6-744c337b0435")
+	)
+	(label "STAT_SENSE"
+		(at 264.16 120.65 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "eb3fa462-b3d5-44dc-93ce-e41453e25824")
 	)
 	(label "WS2812B_DIN"
 		(at 194.31 53.34 180)
