@@ -531,7 +531,7 @@
       "netlist": "",
       "plot": "BaseOut",
       "specctra_dsn": "",
-      "step": "",
+      "step": "../../../Downloads/Base.step",
       "vrml": ""
     },
     "page_layout_descr_file": ""
@@ -678,7 +678,7 @@
         "uuid": "86209ff5-e3e5-4edf-9087-a19295ca511e"
       }
     ],
-    "used_designators": "SW1,R1-9,A1,C1-4,D1-2,U1-2,J1-11",
+    "used_designators": "SW1,R1-11,A1,C1-4,D1-2,U1-2,J1-13",
     "variants": []
   },
   "sheets": [

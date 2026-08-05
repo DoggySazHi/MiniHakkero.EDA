@@ -526,7 +526,7 @@
       "netlist": "",
       "plot": "LEDOut",
       "specctra_dsn": "",
-      "step": "",
+      "step": "../../../Downloads/LED.step",
       "vrml": ""
     },
     "page_layout_descr_file": ""
