@@ -5,7 +5,7 @@
 	(uuid "86209ff5-e3e5-4edf-9087-a19295ca511e")
 	(paper "USLedger")
 	(title_block
-		(rev "V4")
+		(rev "V5")
 	)
 	(lib_symbols
 		(symbol "Audio:MAX98357A"
@@ -5658,12 +5658,6 @@
 		(uuid "45554640-9c64-4d6a-bbe8-f168c7f9c995")
 	)
 	(junction
-		(at 95.25 168.91)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "46d4ca0a-3fa7-4b61-8f9f-93225973697d")
-	)
-	(junction
 		(at 99.06 219.71)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5870,8 +5864,16 @@
 		(uuid "281a5fac-1c23-457e-ba21-f91d153cc98e")
 	)
 	(no_connect
+		(at 146.05 158.75)
+		(uuid "57a00f64-f6fd-46bf-a0ac-0035bc7fbd44")
+	)
+	(no_connect
 		(at 29.21 67.31)
 		(uuid "5dafa8a6-7b16-4353-9fb9-4df408b24743")
+	)
+	(no_connect
+		(at 146.05 161.29)
+		(uuid "d94aa6ba-0cb4-425b-bcfc-1e40903c9cc7")
 	)
 	(wire
 		(pts
@@ -6485,16 +6487,6 @@
 	)
 	(wire
 		(pts
-			(xy 95.25 167.64) (xy 95.25 168.91)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "38645dd7-0064-47a7-aafe-1afaa85becbf")
-	)
-	(wire
-		(pts
 			(xy 200.66 189.23) (xy 226.06 189.23)
 		)
 		(stroke
@@ -6745,7 +6737,7 @@
 	)
 	(wire
 		(pts
-			(xy 95.25 168.91) (xy 95.25 171.45)
+			(xy 95.25 167.64) (xy 95.25 171.45)
 		)
 		(stroke
 			(width 0)
@@ -7722,16 +7714,6 @@
 			(type default)
 		)
 		(uuid "bd600b99-2f46-405d-8edf-86238bf686b6")
-	)
-	(wire
-		(pts
-			(xy 91.44 168.91) (xy 95.25 168.91)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bea6df12-917c-478f-959c-cfa3b2b27185")
 	)
 	(wire
 		(pts
@@ -9405,7 +9387,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_4.3mm_M4_ISO7380_Pad"
+		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2_ISO7380_Pad"
 			(at 207.01 95.25 0)
 			(hide yes)
 			(show_name no)
@@ -9742,7 +9724,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_4.3mm_M4_ISO7380_Pad"
+		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2_ISO7380_Pad"
 			(at 207.01 111.76 0)
 			(hide yes)
 			(show_name no)
