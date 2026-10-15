@@ -5872,10 +5872,6 @@
 		(uuid "1688c949-738b-42ac-9469-123c7a0cd41b")
 	)
 	(no_connect
-		(at 265.43 114.3)
-		(uuid "236d172e-fddc-4b7f-ad01-d83565a4b870")
-	)
-	(no_connect
 		(at 52.07 59.69)
 		(uuid "281a5fac-1c23-457e-ba21-f91d153cc98e")
 	)
@@ -5896,20 +5892,12 @@
 		(uuid "4fbe6880-5a15-4927-a529-6e3468c13f6d")
 	)
 	(no_connect
-		(at 146.05 162.56)
-		(uuid "57a00f64-f6fd-46bf-a0ac-0035bc7fbd44")
-	)
-	(no_connect
 		(at 29.21 67.31)
 		(uuid "5dafa8a6-7b16-4353-9fb9-4df408b24743")
 	)
 	(no_connect
 		(at 311.15 139.7)
 		(uuid "5e2cbdee-fed8-4d7d-822e-602deae1b0b5")
-	)
-	(no_connect
-		(at 265.43 116.84)
-		(uuid "616fc505-b67a-4229-becb-4cac04ed54c7")
 	)
 	(no_connect
 		(at 259.08 229.87)
@@ -5920,8 +5908,8 @@
 		(uuid "6fa2a2a6-93ee-43ea-9570-0bf8780b72e1")
 	)
 	(no_connect
-		(at 100.33 167.64)
-		(uuid "77246c08-62e0-4d73-abe0-e15b436b4449")
+		(at 265.43 124.46)
+		(uuid "9aa4ca8b-33b7-4057-88e8-076ff1a98812")
 	)
 	(no_connect
 		(at 265.43 119.38)
@@ -5940,20 +5928,12 @@
 		(uuid "cd3be5c0-68d2-4a78-b43e-31c3c1d7b411")
 	)
 	(no_connect
-		(at 265.43 124.46)
-		(uuid "d8b53329-1e26-42a9-b82f-1de1f29304e9")
-	)
-	(no_connect
-		(at 146.05 165.1)
-		(uuid "d94aa6ba-0cb4-425b-bcfc-1e40903c9cc7")
-	)
-	(no_connect
 		(at 265.43 96.52)
 		(uuid "e3909d90-2a68-43c9-90f7-2cd4a36b97c3")
 	)
 	(no_connect
-		(at 85.09 157.48)
-		(uuid "e3fac11f-29db-42f3-89e1-d2f523c1f269")
+		(at 265.43 114.3)
+		(uuid "e7484c07-b725-4b92-97ff-d8d2db49743b")
 	)
 	(no_connect
 		(at 311.15 111.76)
@@ -6725,6 +6705,16 @@
 	)
 	(wire
 		(pts
+			(xy 142.24 162.56) (xy 146.05 162.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4dec55b6-2b6d-42ef-89ce-3fe26a3a432c")
+	)
+	(wire
+		(pts
 			(xy 226.06 222.25) (xy 226.06 219.71)
 		)
 		(stroke
@@ -6752,6 +6742,16 @@
 			(type default)
 		)
 		(uuid "51206ce5-fc0c-4392-9fce-7b58b55fef5f")
+	)
+	(wire
+		(pts
+			(xy 82.55 157.48) (xy 85.09 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "518fb76f-2a16-49fb-9b46-0ef72b0abe70")
 	)
 	(wire
 		(pts
@@ -6835,6 +6835,16 @@
 	)
 	(wire
 		(pts
+			(xy 100.33 167.64) (xy 100.33 171.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "60ce417e-0ea3-423d-bcd2-bc2867f19493")
+	)
+	(wire
+		(pts
 			(xy 171.45 109.22) (xy 167.64 109.22)
 		)
 		(stroke
@@ -6852,6 +6862,16 @@
 			(type default)
 		)
 		(uuid "618825b6-3a7e-4e6b-9937-1bc0d25acbf3")
+	)
+	(wire
+		(pts
+			(xy 261.62 116.84) (xy 265.43 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "624ed977-61b0-4c9c-9ebc-c6f7543e0354")
 	)
 	(wire
 		(pts
@@ -6992,6 +7012,16 @@
 			(type default)
 		)
 		(uuid "6e69ac2a-4512-4943-9b7f-d1db665304c7")
+	)
+	(wire
+		(pts
+			(xy 142.24 165.1) (xy 146.05 165.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6e7a79a0-974b-439d-b18c-ab2078fedcbe")
 	)
 	(wire
 		(pts
@@ -8493,6 +8523,16 @@
 		)
 		(uuid "278ebe9b-b3e6-4f99-b22e-0ed6300c3d65")
 	)
+	(label "SPEAKER_SD"
+		(at 142.24 165.1 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "28d3630e-98f4-4da0-bd9c-2984dcb4e864")
+	)
 	(label "USB_VBUS"
 		(at 78.74 93.98 180)
 		(effects
@@ -8592,6 +8632,16 @@
 			(justify right bottom)
 		)
 		(uuid "423412f8-0333-49aa-a300-42cac69bc777")
+	)
+	(label "SPEAKER_SD"
+		(at 261.62 116.84 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "4257e49f-ad1c-4ddf-9805-21d02254b17d")
 	)
 	(label "SW_+"
 		(at 97.79 137.16 90)
@@ -8712,6 +8762,16 @@
 			(justify right bottom)
 		)
 		(uuid "5af400f8-bd6d-4f8b-9220-3aebff18ae4b")
+	)
+	(label "SPEAKER_GAIN"
+		(at 142.24 162.56 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "5ca7d76f-442e-4561-9a4e-6c8237ade40f")
 	)
 	(label "BUTTON_4"
 		(at 261.62 134.62 180)
@@ -9083,6 +9143,16 @@
 		)
 		(uuid "babf1ae0-b762-4d07-a0c5-20cecf49370b")
 	)
+	(label "BAT_-"
+		(at 100.33 171.45 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "bb679d37-2fdc-4abc-b537-f51c891620a4")
+	)
 	(label "BUTTON_4"
 		(at 115.57 110.49 180)
 		(effects
@@ -9232,6 +9302,16 @@
 			(justify right bottom)
 		)
 		(uuid "e5a265a7-9c0e-4268-baa6-7382bf38f01b")
+	)
+	(label "SPEAKER_SD"
+		(at 82.55 157.48 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "e7150a87-89d4-4a3d-8f39-b4dd061d7c58")
 	)
 	(label "USB_D-"
 		(at 316.23 88.9 0)
